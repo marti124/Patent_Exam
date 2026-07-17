@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Forgotten Half of the Patent Clause &mdash; Two-Volume Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1c2c4c; --gold:#8a6d3b; --paper:#f4ecd8; --parch-edge:#e7dcc0;
+    --rule:#c9b890; --ink:#2a2418; --link:#5a3a1a; --link-hover:#8a5a2a;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"EB Garamond",Georgia,serif;line-height:1.6;font-size:1.05rem;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 18px 80px;}
+  .sheet{background:#fff;margin:0 auto;box-shadow:0 0 28px rgba(0,0,0,.14);}
+  .banner{display:block;width:100%;height:auto;border-bottom:3px solid var(--navy);}
+  .body{padding:40px 52px 60px;}
+  h1{font-family:"Cinzel",serif;color:var(--navy);text-align:center;
+    font-size:1.8rem;margin:.4rem 0 .2rem;letter-spacing:.4px;line-height:1.25;}
+  .chap-num{font-family:"Cinzel",serif;text-align:center;color:var(--gold);
+    font-size:1rem;letter-spacing:.18em;margin:1.2rem 0 .3rem;}
+  h2{font-family:"Cinzel",serif;color:var(--navy);font-size:1.28rem;
+    margin:2.1rem 0 .7rem;border-top:1px solid var(--rule);padding-top:1.1rem;}
+  h3{font-family:"Cinzel",serif;color:var(--navy);font-size:1.05rem;margin:1.4rem 0 .5rem;}
+  p{margin:0 0 1rem;text-align:justify;hyphens:auto;}
+  a{color:var(--link);text-decoration:none;word-break:break-word;}
+  a:hover{color:var(--link-hover);text-decoration:underline;}
+  .divider{border:none;border-top:1px solid var(--rule);width:120px;margin:1.4rem auto;}
+  .masthead{text-align:center;margin:1.2rem 0 .4rem;}
+  .mh-sub{font-style:italic;color:var(--gold);font-size:1.05rem;margin:.2rem 0;}
+  .mh-author{margin:.6rem 0 0;font-size:1rem;}
+  /* wrapper intro boxes */
+  .intro-lede{font-size:1.08rem;}
+  .reading{background:#fbf6e9;border:1px solid var(--rule);border-radius:8px;
+    padding:16px 22px;margin:1.2rem 0;}
+  .reading h3{margin-top:0;}
+  .reading ul{margin:0;padding-left:1.2rem;}
+  .reading li{margin-bottom:.55rem;text-align:left;}
+  .ask{background:#f4f1ea;border:1px solid var(--rule);border-left:4px solid var(--navy);
+    border-radius:8px;padding:18px 24px;margin:1.4rem 0;}
+  .ask .label{font-family:"Cinzel",serif;color:var(--navy);font-size:1.02rem;
+    display:block;margin:.3rem 0 .5rem;}
+  .ask p{text-align:left;}
+  .contact{text-align:center;background:var(--parch-edge);border:1px solid var(--rule);
+    border-radius:6px;padding:14px 18px;margin:1.2rem 0;}
+  .contact a{font-weight:600;border-bottom:1px solid var(--link);}
+  .chap-start{border-top:3px double var(--navy);margin-top:2.4rem;padding-top:.5rem;}
+  /* end matter: TOC, summary, endnotes */
+  .endmatter{border-top:3px double var(--navy);margin-top:3rem;padding-top:1rem;}
+  .toc-book h2, .summary h2{border-top:none;padding-top:0;}
+  .toc-book{font-size:.96rem;margin:1rem 0 1.6rem;}
+  .toc-book .part{font-family:"Cinzel",serif;color:var(--navy);font-weight:600;
+    margin:1.1rem 0 .35rem;font-size:1rem;letter-spacing:.02em;}
+  .toc-book .group{color:var(--gold);font-style:italic;margin:1rem 0 .3rem;font-size:.95rem;}
+  .toc-book .ch{margin:.16rem 0;padding-left:1.2rem;text-indent:-1.2rem;}
+  .toc-book .ch .n{color:var(--navy);font-weight:600;}
+  .invite-link{background:#f4f1ea;border:1px solid var(--rule);border-left:4px solid var(--navy);
+    border-radius:8px;padding:14px 22px;margin:1.4rem 0 2rem;font-size:1rem;}
+  .invite-link a{font-weight:600;border-bottom:1px solid var(--link);}
+  .page-footer{border-top:3px double var(--rule);margin-top:2.4rem;padding-top:1.1rem;
+    text-align:center;font-size:.82rem;color:var(--gold);font-style:italic;line-height:1.5;}
+  .summary p{margin:0 0 1rem;}
+  .summary .lead-line{font-style:italic;color:var(--gold);text-align:center;
+    font-size:1.06rem;margin:0 0 1.3rem;}
+  .summary .sub{font-family:"Cinzel",serif;color:var(--navy);font-size:1rem;
+    display:block;margin:1.4rem 0 .3rem;}
+  .endnotes-box{background:#fbf6e9;border:1px solid var(--rule);border-radius:8px;
+    padding:16px 22px;margin:1.8rem 0 .5rem;font-size:.98rem;}
+  .endnotes-box a{font-weight:600;border-bottom:1px solid var(--link);}
+  /* book title block above the summary */
+  .booktitle{text-align:center;margin:0 0 1.6rem;}
+  .booktitle .bt-main{font-family:"Cinzel",serif;color:var(--navy);font-size:1.55rem;
+    line-height:1.2;margin:.2rem 0 .6rem;letter-spacing:.3px;}
+  .booktitle .bt-sub{font-style:italic;color:var(--gold);font-size:1.08rem;
+    line-height:1.4;margin:0 0 .8rem;}
+  .booktitle .bt-lead{color:var(--ink);font-size:.98rem;line-height:1.5;
+    margin:0 0 .8rem;}
+  .booktitle .bt-tag{font-style:italic;color:var(--ink);font-size:1rem;margin:0 0 .7rem;}
+  .booktitle .bt-author{font-family:"Cinzel",serif;color:var(--navy);font-size:1.05rem;
+    margin:.4rem 0 0;}
+  /* chapter images + tables */
+  img.ch34img{display:block;max-width:100%;height:auto;margin:1.3rem auto;
+    border:1px solid var(--rule);background:#fff;}
+  table.ch34tbl{width:100%;border-collapse:collapse;margin:1.2rem 0;font-size:.9rem;}
+  table.ch34tbl th{background:var(--navy);color:var(--paper);font-family:"Cinzel",serif;
+    font-weight:500;text-align:left;padding:7px 9px;font-size:.8rem;}
+  table.ch34tbl td{border:1px solid var(--rule);padding:6px 9px;vertical-align:top;}
+  table.ch34tbl tr:nth-child(even) td{background:#f6ecd8;}
+  /* appendix C response cards (reuse styling) */
+  table.voto{width:100%;border-collapse:collapse;margin:1rem 0 1.4rem;font-size:.95rem;}
+  table.voto th{background:var(--navy);color:var(--paper);font-family:"Cinzel",serif;
+    font-weight:500;text-align:left;padding:8px 12px;font-size:.86rem;}
+  table.voto td{border:1px solid var(--rule);padding:8px 12px;vertical-align:top;}
+  table.voto.response{margin:1rem 0 1.8rem;font-size:.92rem;}
+  table.voto.response td{padding:10px 14px;text-align:justify;background:#fff;}
+  table.voto.response tr:first-child td{background:#eef1f6;font-weight:500;
+    border-bottom:2px solid var(--navy);}
+  table.voto.response td p{margin:0 0 .7rem;}
+  table.voto.response td p:last-child{margin-bottom:0;}
+  table.voto.response td p:empty{display:none;}
+  @media (max-width:600px){
+    .body{padding:24px 20px 40px;}
+    p,li{text-align:left;}
+    h1{font-size:1.4rem;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="sheet">
+    <img class="banner" src="banner.jpg" alt="">
+
+    <div class="body">
+
+      <div class="masthead">
+        <h1>The Forgotten Half of the Patent Clause</h1>
+        <p class="mh-sub">How Federal Regulations Doubled the Cost of American Living and Rewrote the Constitution</p>
+        <p class="mh-author">A constitutional-law litigation strategy and a citizen&rsquo;s playbook &mdash; in one book.<br>
+        by <strong>Roleigh Martin</strong></p>
+      </div>
+
+      <hr class="divider">
+
+      <p class="intro-lede" style="text-align:center;font-style:italic;color:var(--gold);">
+      An overview of the two-volume work &mdash; the argument, what it costs American
+      households, the remedy, and the objections answered &mdash; in the space of a few
+      minutes&rsquo; reading.</p>
+
+      <p>Over the past year the author has published 39 long-form articles arguing that
+      roughly half of the doubling in America&rsquo;s cost of living since 1970 is the
+      downstream consequence of a constitutional violation no court has yet been asked to
+      rule on. Those articles have drawn more than 1.7 million impressions on the Patent
+      Clause argument specifically, and more than 7.7 million impressions across more than
+      110 articles on the related MALA (Make American Living Affordable) and Hybrid Voting
+      work.</p>
+
+      <p><strong>About the author.</strong> Roleigh Martin is a retired Fortune 25 systems
+      analyst (Optum / UnitedHealth Group) and co-inventor of U.S. Patent No. 5,359,509
+      (AdjudiPro&reg;), an AI expert-system for automated claims adjudication &mdash; so this
+      constitutional case for both patent holders and the public comes from someone who has
+      actually held a patent, not only studied one. He founded and runs the 115,000-member
+      Make American Living Affordable (MALA) community on X.</p>
+
+      <p><strong>The foreword.</strong> Both volumes carry a foreword by Gord Magill, author
+      of <em>End of the Road: Inside the War on Truckers</em>. Of the nineteen plaintiff
+      categories the book identifies, America&rsquo;s semi-truck drivers are among the most
+      affected and the most politically resonant, and Gord speaks for them; his work on
+      trucking has taken him to Fox News&rsquo;s Ingraham Angle, Tucker Carlson, Steve
+      Bannon&rsquo;s WarRoom, and Real America&rsquo;s Voice.</p>
+
+      <p><strong>The work is two volumes.</strong> Both drafts are finished. Book 1 runs
+      approximately 558 pages at 6&Prime; x 9&Prime; trim; the full endnotes apparatus
+      (roughly 177 pages, with a live link for every citation) is hosted at
+      <a href="https://marti124.github.io/Patent_EndNotes/">marti124.github.io/Patent_EndNotes</a>
+      so readers can consult it online rather than page through it in print. (If the endnotes
+      are printed instead, Book 2 has room for them &mdash; it runs 230 pages without
+      them.)</p>
+
+      <p>The book&rsquo;s central originality is the Patent Clause&rsquo;s forgotten half
+      &mdash; the expired-patent commons the Constitution protects, and the permanent federal
+      prohibition on remanufacturing regulated vehicles and machinery that has abused it.
+      Book 2 carries the second of the project&rsquo;s three original contributions:
+      <em>Hybrid Legislative Voting</em>, a constitutionally permitted revival of a pre-1970
+      legislative secret-ballot option that would free members of either party to vote against
+      donor and leadership pressure. Its hook comes straight from the Treasury&rsquo;s own
+      record &mdash; no fiscal year since 1957 has closed with the national debt lower than
+      the year before &mdash; and the chapter offers it not as a cure but as a way to make
+      budget discipline structurally possible again.</p>
+
+      <p>The patent-clause argument about the constitutionality of blocking remanufacturing
+      of patent-expired vehicles and other regulated machinery has been stress-tested in
+      public. An open-book examination &mdash; the seven prompts, the scoring sheet, and the
+      full chapter text &mdash; is hosted at
+      <a href="https://marti124.github.io/Patent_Exam/">marti124.github.io/Patent_Exam</a>,
+      along with how all eleven AI models answered the exam&rsquo;s most important question,
+      Prompt 7. Eleven independent AI models, including the legal-research engine OpenCase,
+      each reached the conclusion that the argument raises a serious constitutional question
+      warranting judicial review. The convergence is part of the record &mdash; but it decides
+      nothing; only a court can.</p>
+
+      <h2>The Argument in Brief</h2>
+
+      <h3>The Constitutional Violation</h3>
+
+      <p>Article I, Section 8, Clause 8 of the Constitution lets Congress grant inventors
+      exclusive rights, but only &ldquo;for limited Times.&rdquo; When a patent expires, the
+      right to make, copy, and improve the invention passes to the public. That is the
+      bargain: a temporary monopoly in exchange for a permanent public domain. The Supreme
+      Court has affirmed it in at least thirty-eight separate holdings across one hundred
+      forty-six years of unbroken precedent.</p>
+
+      <p>The clause is older than the patent system it authorizes: it was written in 1787,
+      three years before the first Patent Act. Its full text is a single sentence &mdash;
+      <em>&ldquo;To promote the Progress of Science and useful Arts, by securing for limited
+      Times to Authors and Inventors the exclusive Right to their respective Writings and
+      Discoveries.&rdquo;</em> The Supreme Court reads that sentence as <em>Graham v. John
+      Deere</em> did in 1966: the Patent Clause is &ldquo;both a grant of power and a
+      limitation.&rdquo; Congress may secure an inventor&rsquo;s protection against the public
+      reproducing or remanufacturing his creation &mdash; but only for a limited time, and the
+      limit binds Congress as surely as the grant empowers it.</p>
+
+      <p>However, beginning around 1970, federal energy and safety agencies &mdash; the EPA,
+      NHTSA, and the Department of Energy &mdash; built a wall around that bargain. They did
+      not repeal the public&rsquo;s right to remanufacture; they could not have done that
+      openly. Instead they wrote rules that make it impossible to lawfully build and sell a
+      patent-expired tractor, pickup truck, furnace, semi-truck, or light bulb.</p>
+
+      <p>This follows from two features of these energy and safety rules &mdash; a documented
+      regulatory ratchet and a statutory anti-backsliding mechanism &mdash; neither of which
+      grants a grandfather exemption for remanufactured patent-expired products. The core
+      mechanical technology is legally free. Nobody can lawfully build it. The patent expires
+      on schedule, at twenty years &mdash; but the bargain is broken on both its halves at
+      once, the inventor&rsquo;s and the public&rsquo;s.</p>
+
+      <p>The original manufacturer keeps, in practice, the benefit of a monopoly with no end,
+      which is precisely what &ldquo;limited Times&rdquo; was written to forbid. And the
+      public never receives the expired-patent commons that the clause promised it: the
+      invention that was supposed to pass into common use at expiration never does.</p>
+
+      <p>This is the work&rsquo;s central claim, and it is the one a constitutionalist will
+      weigh first: it is exact and provable. The regulations exist. Their prohibitive effect
+      on remanufacturing can be documented category by category.</p>
+
+      <p>The words &ldquo;limited Times&rdquo; have been effectively removed from the
+      Constitution &mdash; by federal agencies, without an amendment and without a vote. A
+      category-level audit of federal regulatory frameworks against U.S. consumer spending
+      finds the wall now encloses an estimated 58 percent of what Americans buy, with another
+      15 percent hindered and only 27 percent flowing freely.</p>
+
+      <img class="ch34img" src="brief_fig1.png" alt="Figure 1. The cancelled bargain.">
+      <p style="text-align:center;font-size:.92rem;color:var(--gold);font-style:italic;">
+      Figure 1. The cancelled bargain. The patent term ends on schedule; the regulatory wall,
+      built across the expiration date, does not &mdash; the manufacturer&rsquo;s protection
+      runs on with no terminus while the public&rsquo;s Expired Patent Commons stays walled
+      off.</p>
+
+      <p>No federal court has ever ruled on this question. It is a question of first
+      impression; the case has simply never been filed. The book is the public-facing brief
+      for the litigant who eventually files it.</p>
+
+      <h3>What It Costs American Households</h3>
+
+      <p>The constitutional violation is exact. The price of it can only be estimated &mdash;
+      and the book is deliberately conservative about that estimate. Relative to household
+      income, Americans now pay roughly double what they paid before 1970 for the categories
+      the wall encloses: cars, trucks, tractors, furnaces, and light bulbs. Two independent
+      lines of evidence support the doubling. The roughly ninety nations that permit
+      patent-expired remanufacturing sell equivalent products at about one-third of U.S.
+      prices; and the same categories, measured against wages, cost twice what they did in
+      1970.</p>
+
+      <p>Two independent analyses place the cumulative transfer from households to incumbent
+      manufacturers at a conservative $22 trillion since 1970 &mdash; about $3,385 per
+      household every year &mdash; with the true figure plausibly $30 to $45 trillion once
+      excluded categories are counted. The book leads with the floor, not the ceiling. The
+      exact dollar figure is contestable; that it is very large is not.</p>
+
+      <p>The injury is not only financial. Every new vehicle now carries a federally mandated
+      event-data recorder, and automakers have been documented selling drivers&rsquo; location
+      and behavior data to insurers. More than five million Americans whose paid work is
+      driving &mdash; truckers, delivery drivers, rideshare and taxi operators &mdash; face
+      displacement by an autonomous-vehicle rollout that is cost-competitive only because
+      federal regulation has made the human-operated vehicle so expensive. Remove the wall and
+      that math reverses.</p>
+
+      <h3>The Remedy: A Three-Legged Stool</h3>
+
+      <p>The remedy requires no new statute, no constitutional amendment, and no one to break
+      a law. It can be obtained by a single plaintiff with standing, in a single federal
+      courtroom.</p>
+
+      <p>A federal court can order the first two legs directly. The first is a grandfather
+      exemption: a remanufactured product built on an expired-patent platform is held to the
+      federal safety and energy-efficiency standards in effect during the platform year it
+      mimics &mdash; a 2005-platform truck meets 2005 standards, a 1970-platform tractor meets
+      1970 standards.</p>
+
+      <img class="ch34img" src="brief_fig2.png" alt="Figure 2. The grandfather denied the public, kept for the owner&rsquo;s invention.">
+      <p style="text-align:center;font-size:.92rem;color:var(--gold);font-style:italic;">
+      Figure 2. The grandfather denied the public, kept for the owner&rsquo;s invention. The
+      owner&rsquo;s article stays lawful for its full life past expiration; the public&rsquo;s
+      identical remanufactured design is barred &mdash; though it is never dirtier than the
+      original it replaces.</p>
+
+      <p>The second is independent engineering certification on the Underwriters Laboratories
+      model, rather than federal-agency control.</p>
+
+      <p>The third leg is political, not judicial: under existing Article I trade powers,
+      Congress and the President can deploy a tariff, an import restriction, or both, so
+      foreign producers cannot undercut American workers building patent-expired platforms in
+      American plants. The cost-of-living relief and the manufacturing-jobs revival arrive
+      together.</p>
+
+      <p>The result is not a museum piece. It is a freshly engineered vehicle assembled from
+      any combination of expired patents &mdash; a new pickup at $25,000 instead of $72,495, a
+      residential furnace at $3,000 installed instead of $18,000 &mdash; built by American
+      workers, without the surveillance subscription, and without the patent rent.</p>
+
+      <img class="ch34img" src="brief_fig3.png" alt="Figure 3. The proposed remedy.">
+      <p style="text-align:center;font-size:.92rem;color:var(--gold);font-style:italic;">
+      Figure 3. The proposed remedy. After a favorable ruling the wall does not fall &mdash; it
+      synchronizes: a remanufactured patent-expired design is held to the standards of its
+      platform year, while modern designs still meet modern rules.</p>
+
+      <h3>Why the Question Escaped Notice for Fifty-Five Years</h3>
+
+      <p>A reasonable reader &mdash; and a reasonable congressional office &mdash; will assume
+      there must be a catch. If the argument is sound, why has no member of either party
+      raised it, no court been asked, no scholar written it? The book devotes a full chapter
+      to that question, because the answer is not a catch. It is a diagnosis.</p>
+
+      <p>Six independent forces produced the silence. First, a captured regulatory ecosystem
+      of lobbyists and revolving-door staff, its scorecard built by the 1970 congressional
+      reforms, has every incentive to leave the question on the floor. Second, a
+      &ldquo;bootleggers and Baptists&rdquo; coalition (Bruce Yandle&rsquo;s 1983 paradigm)
+      &mdash; sincere safety and environmental advocates alongside incumbent manufacturers
+      &mdash; defends the wall from both sides, and no one in it has both the expertise to see
+      the constitutional question and a reason to raise it. Third, an institutional blind spot
+      leaves the expired-patent commons in the gap between environmental law, administrative
+      law, patent law, and constitutional law, on no one&rsquo;s desk. Fourth, the doctrinal
+      floor: until very recently the case was not even filable, because for forty years
+      Chevron deference would have killed any such challenge before a court could reach the
+      merits. Fifth, moral acquiescence: the few who did privately recognize the violation
+      faced professional and social costs for raising it that the psychology of dissent
+      reliably suppresses. And sixth, rule-induced behavior &mdash; the game-theoretic fact
+      that the great majority of participants simply follow rules they did not write,
+      producing an outcome that looks coordinated but requires no coordinator, and therefore
+      no conspiracy. The forces are independent: removing any one would not break the silence,
+      which is why it has held for fifty-five years &mdash; and why, when it breaks, it will
+      break suddenly.</p>
+
+      <p>That last point is the one a legislator should note. The doctrinal floor is now
+      complete. The Supreme Court&rsquo;s 2024 decision in <em>Loper Bright Enterprises v.
+      Raimondo</em> ended Chevron deference, and a line of recent takings and major-questions
+      decisions supplies the rest. For the first time in fifty-five years, a court asked this
+      question may reach the merits. The silence was structural &mdash; not a verdict on the
+      argument &mdash; and the conditions that held it in place have changed.</p>
+
+      <h3>The Environmental Question</h3>
+
+      <p>The most serious objection a thoughtful office will raise is environmental: does
+      restoring the right to remanufacture unleash 1970s pollution? The book answers this
+      directly, and the answer is no.</p>
+
+      <p>The set of expired patents is not frozen at 1970. It is a continuously expanding kit
+      of components. The catalytic converter&rsquo;s core patents expired in the mid-1990s;
+      electronic fuel injection&rsquo;s expired across the 1990s. Because a favorable ruling
+      is unlikely before 2030, a remanufactured car or pickup built then from expired-patent
+      parts can carry roughly 2010-era emissions controls, not 1970 ones &mdash; a vast
+      improvement over the baseline the objection imagines, and no dirtier than the millions
+      of vehicles of that same vintage the government already permits to be driven, sold, and
+      registered today. The point is worth stating plainly: by letting that vintage remain
+      lawfully on the road, the government has already judged it safe enough; a freshly built
+      version of it cannot be more dangerous than the used one beside it in traffic. Market
+      forces reinforce the result: a deliberately dirty product fails state inspection in
+      two-thirds of the states, fails insurance underwriting, and fails the financing and
+      brand tests. A race to the bottom is a poor business plan.</p>
+
+      <p>The political branches can raise that floor further without a dollar of direct
+      spending. Government has historically had only three blunt tools to steer private
+      behavior: an ordinary tax deduction (weak &mdash; businesses already deduct expenses), a
+      tax credit (powerful but costly to the Treasury), or a civil penalty (coercive). The
+      book proposes a fourth tool &mdash; the third of the project&rsquo;s three original
+      contributions, and one the author has advanced in print since 1994: a multi-value tax
+      deduction. For every dollar a remanufacturer spends fitting the newest patent-expired
+      emissions-control technology, it could deduct two or three dollars as a business expense
+      &mdash; far cheaper than a credit and far more inducing than an ordinary deduction. That
+      makes the cleanest public-domain control system the economical default in every
+      remanufactured vehicle, with no consumer subsidy and no direct outlay. The environmental
+      floor then rises on its own, year after year, as the public domain advances, and the
+      market still sets the vehicle&rsquo;s price.</p>
+
+      <p>And the Constitution already supplies a safety valve. If a remanufactured category
+      genuinely creates unacceptable harm, the Fifth Amendment&rsquo;s Takings Clause lets the
+      government restrict it &mdash; on the condition that it compensates the public for the
+      vested right being taken. That converts regulation from a hidden cost buried in the
+      price of every product into a visible, accountable line on the federal balance sheet.
+      This is not weaker environmental protection. It is environmental regulation with a price
+      tag, conducted on the constitutional terms the Founders wrote. An environmentally minded
+      reader can support this remedy without abandoning a single environmental
+      commitment.</p>
+
+      <p>Honesty about that safety valve requires naming one cost. By requiring compensation,
+      the Takings Clause creates, at the margin, a subsidy for the very behavior a regulation
+      means to discourage &mdash; Milton Friedman&rsquo;s principle that you get more of
+      whatever you subsidize. Takings doctrine and market reality constrain the gaming
+      (compensation is fair market value, not a strategic buyout; a factory tooled to attract
+      a taking has expectations a court will read as unreasonable), but the residual subsidy
+      is real. The book answers it with an optional Sunset Amendment, offered as structural
+      insurance rather than a requirement: remanufacturing rights on an expired-patent platform
+      stay protected against uncompensated cancellation for twenty years from first lawful
+      production, after which Congress may restrict further remanufacture prospectively without
+      compensation. That closes the long-run subsidy while leaving the Phase 1 remedy at full
+      strength during the window where the public benefit is greatest &mdash; and it is
+      deliberately cross-partisan, the kind of reform a coalition running from the Sierra Club
+      to the Federalist Society could support, as the 27th Amendment&rsquo;s coalition once
+      did.</p>
+
+      <h3>Who the Work Reaches</h3>
+
+      <p>No one consented to continuous in-vehicle surveillance. No one consented to five
+      million American driving jobs being scheduled for autonomous replacement. No one
+      consented to paying twice in real-income terms what their parents paid for the same
+      cars, tractors, furnaces, and light bulbs. The work is written for a broad coalition
+      &mdash; the family that cannot replace a car without going deeper underwater in debt;
+      the owner-operator whose rig costs more than his house; the citizen who has watched the
+      regulatory state grow captured and wants a constitutional answer rather than a partisan
+      one &mdash; and it ends not with a grievance but with a toolkit.</p>
+
+      <p>The books and their companion feedback infrastructure give ordinary citizens a
+      communication channel, equipped with hard evidence, to push back: citizens send the
+      letters, and the toolkit supplies them &mdash; the cover letter pre-populated and
+      editable, the data attachments documented, the case ready to put in the mail.</p>
+
+      <p>The argument is constitutional before it is political, and it belongs to no party.
+      The words &ldquo;limited Times&rdquo; are in the Constitution. The work asks only that
+      they be enforced.</p>
+
+      <h3>The Companion Websites</h3>
+
+      <p>Three public websites carry the book&rsquo;s apparatus, and a reader can inspect all
+      of it before requesting the manuscript.</p>
+
+      <div class="endnotes-box">
+        The endnotes, appendices, and glossary &mdash; with coverage of all fifty-six Supreme
+        Court cases cited across the two volumes, including those that cut against the
+        argument &mdash; are at
+        <a href="https://marti124.github.io/Patent_EndNotes/">marti124.github.io/Patent_EndNotes</a>,
+        with a live link for every citation.<br><br>
+        The open-book examination &mdash; the full text of the exam chapter, a scoring page for
+        anyone who wants to take the exam, and how all eleven AI models, including the
+        legal-research engine OpenCase, handled the exam&rsquo;s most important question,
+        Prompt 7 &mdash; is at
+        <a href="https://marti124.github.io/Patent_Exam/">marti124.github.io/Patent_Exam</a>.<br><br>
+        The citizen toolkit &mdash; eight letter-generation apps already built (the
+        governors-and-attorneys-general app serves both recipients in one), with more to come
+        before the book goes to press &mdash; is at
+        <a href="https://marti124.github.io/Patent_Letters/">marti124.github.io/Patent_Letters</a>.
+      </div>
+
+      <p>Both volumes are complete, and the complete manuscripts are available on request.</p>
+
+      <div class="ask">
+        <span class="label">A note for attorneys &mdash; and for readers who know one</span>
+        <p>This constitutional argument is being prepared for federal court. As the book
+        moves toward publishers, one question recurs: whether a non-lawyer can be trusted to
+        handle the argument responsibly. A few words from a practicing attorney would answer
+        that better than anything the author could say.</p>
+        <p>If you are a lawyer and, after reviewing the materials, you consider the work
+        well-researched and deserving of serious consideration and a public hearing, the
+        author welcomes a brief statement to that effect &mdash; in your own words, implying
+        no agreement with the book&rsquo;s conclusions. And if you simply know an attorney for
+        whom this argument is suited, passing it along would be a real help.</p>
+        <p>Any attorney who reaches out can receive the complete Author&rsquo;s Review
+        manuscript for their review &mdash; as a PDF, as a printed trade paperback (available
+        at cost, including shipping), or as an EPUB &mdash; whichever suits how you prefer to
+        read.</p>
+      </div>
+
+      <div class="contact">
+        <p style="margin-bottom:8px;">To reach the author, or to send a paragraph:</p>
+        <p style="margin:0;">
+        <a href="https://x.com/RoleighMartin">x.com/RoleighMartin</a>
+        &nbsp;&middot;&nbsp;
+        <a href="mailto:RoleighMartin@proton.me">RoleighMartin@proton.me</a></p>
+      </div>
+
+      <div class="invite-link">
+        Want to test the argument yourself? The open-book examination chapter &mdash; the law,
+        both advocates&rsquo; cases, the seven prompts, and the replies of eleven independent
+        AI models &mdash; is here:
+        <a href="https://marti124.github.io/Patent_Exam/Forgotten_Half_Chapter_34.html">Reason the Constitutional Argument Yourself</a>.
+      </div>
+
+      <div class="page-footer">
+        <em>The Forgotten Half of the Patent Clause: How Federal Regulations Doubled the Cost of American Living and Rewrote the Constitution</em><br>
+        by Roleigh Martin &nbsp;&middot;&nbsp; Copyright &copy; 2026. All rights reserved.
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
