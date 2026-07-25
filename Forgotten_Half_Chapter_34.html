@@ -107,6 +107,26 @@
     p,li{text-align:left;}
     h1{font-size:1.4rem;}
   }
+
+  /* ---- Download block (house style, matches the endnotes landing page) ---- */
+  .choose{background:#fbf7ec;border:1px solid var(--rule);border-radius:6px;
+    padding:22px 24px 24px;margin:1.8rem 0 1.4rem;text-align:center;}
+  .choose h3{font-family:"Cinzel",serif;color:var(--navy);font-size:1rem;
+    letter-spacing:.03em;margin:.1rem 0 .3rem;}
+  .choose .hint{font-style:italic;color:#6b5a3a;font-size:.96rem;margin:0 0 1.1rem;}
+  .btnrow{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+  .btn{display:inline-flex;flex-direction:column;align-items:center;min-width:230px;
+    text-decoration:none;background:var(--navy);color:#fbf5e9;border:none;
+    border-radius:5px;padding:14px 22px;font-family:"Cinzel",serif;font-weight:500;
+    letter-spacing:.02em;font-size:.98rem;transition:background .15s ease;}
+  .btn:hover{background:#27406e;}
+  .btn:active{transform:translateY(1px);}
+  .btn .sub{font-family:"EB Garamond",serif;font-weight:400;font-style:italic;
+    letter-spacing:0;font-size:.86rem;color:#d9c9a6;margin-top:3px;}
+  .btn.pdf{background:var(--gold);}
+  .btn.pdf:hover{background:#9c7d44;}
+  @media (max-width:600px){ .btn{min-width:0;width:100%;} }
+  @media print{ .choose{display:none;} }
 </style>
 </head>
 <body>
@@ -136,8 +156,10 @@
       you to put the constitutional question to an artificial-intelligence language model
       and judge the reasoning for yourself. At its close, and continuing into the section
       that was Appendix&nbsp;C in the printed book, it reproduces the full, unedited replies
-      of eleven independent AI models. They decide nothing &mdash; only a court can &mdash;
-      but the convergence is part of the record you are invited to weigh.</p>
+      of eleven AI models, each tested separately. They decide nothing &mdash; only a court
+      can &mdash; and because such systems share training data they are not eleven
+      independent verifications; the convergence is one part of a record you are invited
+      to weigh for yourself.</p>
 
       <div class="ask">
         <span class="label">A note for attorneys &mdash; and for readers who know one</span>
@@ -163,6 +185,22 @@
         <a href="https://x.com/RoleighMartin">x.com/RoleighMartin</a>
         &nbsp;&middot;&nbsp;
         <a href="mailto:RoleighMartin@proton.me">RoleighMartin@proton.me</a></p>
+      </div>
+
+      
+      <div class="choose">
+        <h3>Read this chapter offline</h3>
+        <p class="hint">The full chapter, including every model&rsquo;s reply, in one file.</p>
+        <div class="btnrow">
+          <a class="btn pdf" href="Forgotten_Half_Chapter_34.pdf" download>
+            Download PDF
+            <span class="sub">fixed pages &middot; bookmarked &middot; best for printing</span>
+          </a>
+          <a class="btn" href="https://marti124.github.io/Patent_Exam/">
+            Run the examination
+            <span class="sub">exam file &middot; prompts &middot; scoring page</span>
+          </a>
+        </div>
       </div>
 
       <div class="chap-start">
