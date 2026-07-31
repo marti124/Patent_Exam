@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter Nine &mdash; When Outsiders Advance Constitutional Law and Other Disciplines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1c2c4c; --gold:#8a6d3b; --paper:#f4ecd8; --parch-edge:#e7dcc0;
+    --rule:#c9b890; --ink:#2a2418; --link:#5a3a1a; --link-hover:#8a5a2a;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"EB Garamond",Georgia,serif;line-height:1.6;font-size:1.05rem;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 18px 80px;}
+  .sheet{background:#fff;margin:0 auto;box-shadow:0 0 28px rgba(0,0,0,.14);}
+  .banner{display:block;width:100%;height:auto;border-bottom:3px solid var(--navy);}
+  .body{padding:40px 52px 60px;}
+  h1{font-family:"Cinzel",serif;color:var(--navy);text-align:center;
+    font-size:1.8rem;margin:.4rem 0 .2rem;letter-spacing:.4px;line-height:1.25;}
+  .chap-num{font-family:"Cinzel",serif;text-align:center;color:var(--gold);
+    font-size:1rem;letter-spacing:.18em;margin:1.2rem 0 .3rem;}
+  h2{font-family:"Cinzel",serif;color:var(--navy);font-size:1.28rem;
+    margin:2.1rem 0 .7rem;border-top:1px solid var(--rule);padding-top:1.1rem;}
+  h3{font-family:"Cinzel",serif;color:var(--navy);font-size:1.05rem;margin:1.4rem 0 .5rem;}
+  p{margin:0 0 1rem;text-align:justify;hyphens:auto;}
+  a{color:var(--link);text-decoration:none;word-break:break-word;}
+  a:hover{color:var(--link-hover);text-decoration:underline;}
+  .divider{border:none;border-top:1px solid var(--rule);width:120px;margin:1.4rem auto;}
+  .masthead{text-align:center;margin:1.2rem 0 .4rem;}
+  .mh-sub{font-style:italic;color:var(--gold);font-size:1.05rem;margin:.2rem 0;}
+  .mh-author{margin:.6rem 0 0;font-size:1rem;}
+  /* wrapper intro boxes */
+  .intro-lede{font-size:1.08rem;}
+  .reading{background:#fbf6e9;border:1px solid var(--rule);border-radius:8px;
+    padding:16px 22px;margin:1.2rem 0;}
+  .reading h3{margin-top:0;}
+  .reading ul{margin:0;padding-left:1.2rem;}
+  .reading li{margin-bottom:.55rem;text-align:left;}
+  .ask{background:#f4f1ea;border:1px solid var(--rule);border-left:4px solid var(--navy);
+    border-radius:8px;padding:18px 24px;margin:1.4rem 0;}
+  .ask .label{font-family:"Cinzel",serif;color:var(--navy);font-size:1.02rem;
+    display:block;margin:.3rem 0 .5rem;}
+  .ask p{text-align:left;}
+  .contact{text-align:center;background:var(--parch-edge);border:1px solid var(--rule);
+    border-radius:6px;padding:14px 18px;margin:1.2rem 0;}
+  .contact a{font-weight:600;border-bottom:1px solid var(--link);}
+  .chap-start{border-top:3px double var(--navy);margin-top:2.4rem;padding-top:.5rem;}
+  /* end matter: TOC, summary, endnotes */
+  .endmatter{border-top:3px double var(--navy);margin-top:3rem;padding-top:1rem;}
+  .toc-book h2, .summary h2{border-top:none;padding-top:0;}
+  .toc-book{font-size:.96rem;margin:1rem 0 1.6rem;}
+  .toc-book .part{font-family:"Cinzel",serif;color:var(--navy);font-weight:600;
+    margin:1.1rem 0 .35rem;font-size:1rem;letter-spacing:.02em;}
+  .toc-book .group{color:var(--gold);font-style:italic;margin:1rem 0 .3rem;font-size:.95rem;}
+  .toc-book .ch{margin:.16rem 0;padding-left:1.2rem;text-indent:-1.2rem;}
+  .toc-book .ch .n{color:var(--navy);font-weight:600;}
+  .invite-link{background:#f4f1ea;border:1px solid var(--rule);border-left:4px solid var(--navy);
+    border-radius:8px;padding:14px 22px;margin:1.4rem 0 2rem;font-size:1rem;}
+  .invite-link a{font-weight:600;border-bottom:1px solid var(--link);}
+  .page-footer{border-top:3px double var(--rule);margin-top:2.4rem;padding-top:1.1rem;
+    text-align:center;font-size:.82rem;color:var(--gold);font-style:italic;line-height:1.5;}
+  .summary p{margin:0 0 1rem;}
+  .summary .lead-line{font-style:italic;color:var(--gold);text-align:center;
+    font-size:1.06rem;margin:0 0 1.3rem;}
+  .summary .sub{font-family:"Cinzel",serif;color:var(--navy);font-size:1rem;
+    display:block;margin:1.4rem 0 .3rem;}
+  .endnotes-box{background:#fbf6e9;border:1px solid var(--rule);border-radius:8px;
+    padding:16px 22px;margin:1.8rem 0 .5rem;font-size:.98rem;}
+  .endnotes-box a{font-weight:600;border-bottom:1px solid var(--link);}
+  /* book title block above the summary */
+  .booktitle{text-align:center;margin:0 0 1.6rem;}
+  .booktitle .bt-main{font-family:"Cinzel",serif;color:var(--navy);font-size:1.55rem;
+    line-height:1.2;margin:.2rem 0 .6rem;letter-spacing:.3px;}
+  .booktitle .bt-sub{font-style:italic;color:var(--gold);font-size:1.08rem;
+    line-height:1.4;margin:0 0 .8rem;}
+  .booktitle .bt-lead{color:var(--ink);font-size:.98rem;line-height:1.5;
+    margin:0 0 .8rem;}
+  .booktitle .bt-tag{font-style:italic;color:var(--ink);font-size:1rem;margin:0 0 .7rem;}
+  .booktitle .bt-author{font-family:"Cinzel",serif;color:var(--navy);font-size:1.05rem;
+    margin:.4rem 0 0;}
+  /* chapter images + tables */
+  img.ch34img{display:block;max-width:100%;height:auto;margin:1.3rem auto;
+    border:1px solid var(--rule);background:#fff;}
+  table.ch34tbl{width:100%;border-collapse:collapse;margin:1.2rem 0;font-size:.9rem;}
+  table.ch34tbl th{background:var(--navy);color:var(--paper);font-family:"Cinzel",serif;
+    font-weight:500;text-align:left;padding:7px 9px;font-size:.8rem;}
+  table.ch34tbl td{border:1px solid var(--rule);padding:6px 9px;vertical-align:top;}
+  table.ch34tbl tr:nth-child(even) td{background:#f6ecd8;}
+  /* appendix C response cards (reuse styling) */
+  table.voto{width:100%;border-collapse:collapse;margin:1rem 0 1.4rem;font-size:.95rem;}
+  table.voto th{background:var(--navy);color:var(--paper);font-family:"Cinzel",serif;
+    font-weight:500;text-align:left;padding:8px 12px;font-size:.86rem;}
+  table.voto td{border:1px solid var(--rule);padding:8px 12px;vertical-align:top;}
+  table.voto.response{margin:1rem 0 1.8rem;font-size:.92rem;}
+  table.voto.response td{padding:10px 14px;text-align:justify;background:#fff;}
+  table.voto.response tr:first-child td{background:#eef1f6;font-weight:500;
+    border-bottom:2px solid var(--navy);}
+  table.voto.response td p{margin:0 0 .7rem;}
+  table.voto.response td p:last-child{margin-bottom:0;}
+  table.voto.response td p:empty{display:none;}
+  @media (max-width:600px){
+    .body{padding:24px 20px 40px;}
+    p,li{text-align:left;}
+    h1{font-size:1.4rem;}
+  }
+
+  a.cit1, a.cit2{
+    color:#8c8c8c;
+    text-decoration:none;
+    font-size:.85em;
+    vertical-align:super;
+    line-height:0;
+    padding:0 1px;
+    cursor:pointer;
+  }
+  a.cit1:hover, a.cit2:hover{ color:var(--link-hover); }
+  a.cit1:hover, a.cit2:hover{ text-decoration:none; }
+  .figcap{font-size:.9rem;font-style:italic;color:var(--gold);text-align:center;
+    margin:-.6rem 0 1.4rem;}
+  .technote{background:#fbf6e9;border:1px solid var(--rule);border-radius:8px;
+    padding:16px 22px;margin:1.4rem 0 2rem;font-size:.97rem;}
+  .technote .label{font-family:"Cinzel",serif;color:var(--navy);font-size:1rem;
+    display:block;margin:.2rem 0 .6rem;}
+  .technote p{text-align:left;margin:0 0 .6rem;}
+  .technote p:last-child{margin-bottom:0;}
+  .technote a{font-weight:600;border-bottom:1px solid var(--link);}
+  .technote .mark{color:#8c8c8c;font-weight:700;}
+
+  /* chapter identifier bar — first thing the reader sees (added 2026-07-31) */
+  .chap-id{background:var(--navy);color:var(--paper);text-align:center;
+    font-family:"Cinzel",serif;padding:14px 20px;line-height:1.4;
+    border-bottom:3px solid var(--gold);}
+  .chap-id .vol{display:block;font-size:.76rem;letter-spacing:.24em;color:#d8c295;
+    text-transform:uppercase;margin:0 0 .35rem;}
+  .chap-id .ttl{display:block;font-size:1.16rem;letter-spacing:.02em;}
+  /* endnotes pointer, placed before the chapter begins */
+  .notes-top{background:#fbf6e9;border:1px solid var(--rule);
+    border-left:4px solid var(--navy);border-radius:8px;
+    padding:15px 22px;margin:1.4rem 0;font-size:.97rem;}
+  .notes-top p{margin:0 0 .55rem;text-align:left;}
+  .notes-top p:last-child{margin-bottom:0;}
+  .notes-top a{font-weight:600;border-bottom:1px solid var(--link);}
+  .notes-top .label{font-family:"Cinzel",serif;color:var(--navy);font-size:1.02rem;
+    display:block;margin:0 0 .5rem;}
+  @media (max-width:600px){ .chap-id .ttl{font-size:1rem;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="sheet">
+    <img class="banner" src="banner.jpg" alt="The Forgotten Half of the Patent Clause">
+    <div class="chap-id"><span class="vol">Volume Two &middot; Chapter 9</span><span class="ttl">When Outsiders Advance Constitutional Law and Other Disciplines</span></div>
+    <div class="body">
+
+      <div class="masthead">
+        <h1>The Forgotten Half of the Patent Clause</h1>
+        <p class="mh-sub">How Federal Regulations Doubled the Cost of American Living and Rewrote the Constitution</p>
+        <p class="mh-author">A constitutional-law litigation strategy and a citizen&rsquo;s playbook &mdash; in one book.<br>
+        by <strong>Roleigh Martin</strong></p>
+      </div>
+
+      <hr class="divider">
+
+      <p class="intro-lede" style="text-align:center;font-style:italic;color:var(--gold);">
+      The closing chapter of Volume&nbsp;Two, reproduced in full &mdash; on how a field can hold
+      the answer for a century and never think to ask the question.</p>
+
+      <p>Every reader of this work eventually arrives at the same question, and it is a fair one:
+      why is this argument coming from a retired data engineer rather than from a constitutional
+      scholar? The chapter below answers it, and not with biography. It sets out twenty cases
+      &mdash; in law, medicine, geology, astronomy, linguistics, and financial regulation &mdash;
+      where the evidence was published, available, and unread for decades, and it identifies who
+      finally asked. The pattern is not that outsiders are usually right. It is that a question
+      lying outside a field&rsquo;s settled sense of what matters does not get refused. It never
+      comes up.</p>
+
+      <p>The chapter also states plainly what this work owes to a set of tools, and shows what
+      that dependence looks like in cases where it can be checked against something physical: a
+      word read inside a scroll nobody had opened, ink found in scan data everyone had already
+      examined, a planet located in an archive astronomers had combed for years. In each, a
+      machine supplied reach and a person supplied judgment &mdash; and the field&rsquo;s own
+      experts confirmed the result before it counted for anything.</p>
+
+      <div class="notes-top">
+        <span class="label">Sources and endnotes for this chapter</span>
+        <p>Every authority named in this chapter is documented in the book&rsquo;s full
+        back-matter apparatus:
+        <a href="https://marti124.github.io/Patent_EndNotes/Forgotten_Half_Full_EndNotes.html">Endnotes,
+        Glossary &amp; Key&nbsp;Terms</a> &mdash; every citation with a live source link.</p>
+        <p>One caution so it is not a surprise. That page is <em>not</em> a per-chapter note
+        list. It is the complete apparatus for the entire two-volume work, alphabetical by
+        author, organization, or case name, and it runs to several hundred entries.</p>
+        <p>To find a particular source, open the page and use your browser&rsquo;s find
+        command &mdash; <strong>Ctrl-F</strong> on Windows, <strong>Command-F</strong> on a
+        Mac &mdash; then search for the author, case, or work by name.</p>
+      </div>
+
+      <div class="ask">
+        <span class="label">A note for attorneys &mdash; and for readers who know one</span>
+        <p>This constitutional argument is being prepared for federal court. As the book
+        moves toward publishers, one question recurs: whether a non-lawyer can be trusted to
+        handle the argument responsibly. A few words from a practicing attorney would answer
+        that better than anything the author could say.</p>
+        <p>If you are a lawyer and, after reviewing the materials, you consider the work
+        well-researched and deserving of serious consideration and a public hearing, the
+        author welcomes a brief statement to that effect &mdash; in your own words, implying
+        no agreement with the book&rsquo;s conclusions. And if you simply know an attorney for
+        whom this argument is suited, passing it along would be a real help.</p>
+        <p>Any attorney who reaches out can receive the complete Author&rsquo;s Review
+        manuscript for their review &mdash; as a PDF, as a printed trade paperback (available
+        at cost, including shipping), or as an EPUB &mdash; whichever suits how you prefer to
+        read.</p>
+      </div>
+
+      <div class="contact">
+        <p style="margin-bottom:8px;">To reach the author, or to send a paragraph:</p>
+        <p style="margin:0;">
+        <a href="https://x.com/RoleighMartin">x.com/RoleighMartin</a>
+        &nbsp;&middot;&nbsp;
+        <a href="mailto:RoleighMartin@proton.me">RoleighMartin@proton.me</a></p>
+      </div>
+
+            <div class="chap-start">
+        <p class="chap-num">CHAPTER 9</p>
+        <h1>When Outsiders Advance Constitutional Law<br>and Other Disciplines</h1>
+        <p style="text-align:center;font-style:italic;color:var(--gold);margin:.6rem 0 0;">The Supreme Court’s own opinions, a hospital’s own death records,
+a journal’s own back issues, a regulator’s own files — twenty cases
+where the answer sat in plain sight for decades, and the people who
+finally asked. In the four constitutional cases, the fact that moved the
+doctrine came from outside the law every time.</p>
+      </div>
+
+<p>A field can fail at its own edge in two ways.</p>
+<p>Sometimes the field is working with what it has, and someone arrives
+with something better. A sharper instrument. A larger set of records. A
+method nobody in the field had tried. The field had tools. It did not
+have these tools. Call that failure the better tool.</p>
+<p>Sometimes the field already holds everything the answer requires. The
+records are published. The photographs are filed. The numbers are
+printed in the field’s own annual report. No better instrument would
+help, because nothing is hidden. What is missing is a question. Call
+that failure the unasked question.</p>
+<p>The two failures are not equally serious. The better tool indicts
+nobody. A geologist in 1900 cannot be blamed for lacking satellite
+imagery. The unasked question is different. It means the field held the
+answer, looked at it, and did not see it — and the reason was never a
+shortage of evidence.</p>
+<p>The argument in these two volumes is an unasked-question case. The
+regulations are published in the Federal Register. Patent expiration
+dates are public. The window stickers are on the cars. Nothing in it
+required a discovery. It required somebody to ask what happens to a
+design when the patent runs out and the federal standard does not.</p>
+<p>This chapter does three things. It shows how constitutional doctrine
+goes blind, and who has historically noticed. It shows why the person
+who notices almost never wins the case, which matters here because the
+author of these volumes cannot bring one. Then it turns to a group of
+results from the last fifteen years in which no human being was holding
+the blindfold, because the machine was never told where to look.</p>
+<p>Two rules run through all of it. Every case gets labeled — better
+tool or unasked question — and where a case is some of each, the chapter
+says which part is which. And where the popular version of a story is
+wrong, the chapter gives the correction instead of quietly using the
+half that helps. Rounding a case toward the answer you want is the exact
+error this chapter accuses other fields of making.</p>
+<h3>Thomas Kuhn, 1962 —
+A name for the blind spot</h3>
+<p>Thomas Kuhn gave this problem its vocabulary in <em>The Structure of
+Scientific Revolutions</em>. A field operating normally does not test
+its own foundations. It works inside a settled framework that tells its
+members which questions count, which observations matter, and which
+anomalies deserve a second look. That framework is what makes ordinary
+work efficient. It is also what makes certain facts invisible while they
+sit in plain view.</p>
+<p>Volume One’s preface puts the same idea in a sentence, describing
+pathologists who spent decades not counting the connective tissue on a
+cancer slide. They failed to count it, the preface says, not because
+they could not see it, but because they were confident they already knew
+which part of the slide mattered.</p>
+<p>That is the mechanism behind every case here. Not conspiracy. Not
+incompetence. Not missing evidence. A settled sense of which questions
+belong to a field. A question outside that sense does not get refused.
+It never comes up.</p>
+<p>Volume One’s chapter <em>Why Nobody Noticed: How a Constitutional
+Violation Hides in Plain Sight</em> traces how that mechanism worked in
+the Patent Clause case specifically — through lobbying, judicial
+deference, coalition incentives, the membrane between patent scholarship
+and constitutional scholarship, and the conformity pressure Solomon Asch
+measured in the 1950s. This chapter does the opposite job. It shows the
+same failure in medicine, geology, astronomy, linguistics and financial
+regulation, and it names who breaks it.</p>
+<h2>Movement One: The Unasked
+Question</h2>
+<h3>Harry
+Markopolos, 1999 — The regulator would not read its own mail</h3>
+<p>Start here, because this case has the same shape as the argument in
+these volumes.</p>
+<p>Harry Markopolos was a financial analyst in Boston. His firm asked
+him to copy a competitor’s investment returns. The competitor was
+Bernard Madoff. Markopolos looked at the numbers and could not copy
+them, because they were not possible. He has said it took him about five
+minutes to see that, and about four hours to build the model that proved
+it. Those numbers are his own, from the time, not a story he improved
+later.</p>
+<p>He told the Securities and Exchange Commission. He told them in 2000.
+He told them again in 2001. In 2005 he sent a document titled “The
+World’s Largest Hedge Fund is a Fraud.” The agency did not act. Madoff’s
+scheme collapsed in December 2008 and took roughly sixty-five billion
+dollars of client money with it.</p>
+<p>The Commission investigated itself. Its Office of Inspector General
+reported in August 2009. The report found that the agency had received
+detailed, credible complaints, had run examinations that were not
+adequate, and had failed to follow the warnings it was handed.</p>
+<p>Nothing was hidden. Markopolos did not find a document. He read
+numbers the agency already had, that anyone could have read, and he was
+not an insider at the agency in any sense. He had no standing, no
+channel, and no way to make anyone look.</p>
+<p>The unasked question, and note the kind. This is not a scientist
+missing something in nature. This is a regulator failing to see what was
+sitting in its own files, delivered by hand, three times.</p>
+<p>The parallel does not need labor. The rules in these volumes are
+published. The patent expirations are docketed. Nobody has to find
+anything.</p>
+<h3>Aiko
+Herzig-Yoshinaga, 1983 — The government’s own file, forty years
+later</h3>
+<p>Aiko Herzig-Yoshinaga had no law degree, no university post, and no
+institutional standing at all. As a teenager she had been imprisoned at
+Manzanar, one of the camps where the United States held Japanese
+Americans during the Second World War.</p>
+<p>In the late 1970s she was working in the National Archives in
+Washington. She found what forty years of litigation had not: the
+government’s own original copy of General DeWitt’s <em>Final Report</em>
+on the removal, containing passages that a later, revised version had
+taken out.</p>
+<p>The deleted material showed the government had known there was no
+time to hold individual loyalty hearings. It showed that the claim of
+military necessity, made to the Supreme Court in 1944, had been made
+while contrary evidence sat in the file.</p>
+<p>Fred Korematsu had been convicted for refusing to go. In 1983 a
+federal court in San Francisco threw out his conviction on a writ of
+<em>coram nobis</em> — an old and rarely used procedure that lets a
+court reopen a case when it learns the original proceeding was tainted.
+In 2018, in <em>Trump v. Hawaii</em>, the Supreme Court said that
+<em>Korematsu</em> had been gravely wrong the day it was decided.</p>
+<p>The unasked question, and the most damning version of it in this
+chapter. The evidence was not merely available somewhere. It was in the
+government’s own files, put there by the government, kept by the
+government, for forty years.</p>
+<h3>The
+historians in Lawrence, 2003 — A court had believed something
+untrue</h3>
+<p>In 1986, in <em>Bowers v. Hardwick</em>, the Supreme Court upheld a
+Georgia sodomy law. In doing so it stated that laws against homosexual
+conduct had ancient roots.</p>
+<p>Seventeen years later a group of historians — George Chauncey, Nancy
+Cott, John D’Emilio, Estelle Freedman and others — filed a brief in
+<em>Lawrence v. Texas</em> taking that statement apart. The sources they
+used had been in print the whole time. The historical record did not say
+what <em>Bowers</em> said it said. The category of person
+<em>Bowers</em> described did not exist in the period <em>Bowers</em>
+pointed to.</p>
+<p>The Court overruled <em>Bowers</em>. <em>Lawrence</em> held that the
+Constitution protects the private conduct that <em>Bowers</em> had let
+states make criminal.</p>
+<p>The unasked question, and the cleanest one in law. Nothing was
+discovered. A court had asserted a fact, everyone had believed it, and
+for seventeen years nobody checked it against a body of scholarship that
+already said otherwise.</p>
+<h3>Josephine
+Goldmark, 1908 — An outsider hands the Court a library</h3>
+<p>Josephine Goldmark was the research director of the National
+Consumers League. She had no law degree.</p>
+<p>Oregon had a law limiting women in factories and laundries to ten
+hours a day. An employer challenged it. The brief filed for Oregon went
+up under the name of Louis Brandeis, then a practicing lawyer and later
+a Justice of the Supreme Court. It ran a hundred and thirteen pages.
+Goldmark and her researchers filled about ninety-eight of them with
+factory inspection reports, medical testimony, and labor statutes from
+other countries. Roughly two pages were legal argument.</p>
+<p>The Court upheld the law in <em>Muller v. Oregon</em>. More striking,
+it took formal notice of the material. A brief of this kind is now
+called a Brandeis brief, and it is the ancestor of every filing that
+brings a court facts rather than precedent.</p>
+<p>Two corrections belong beside the praise.</p>
+<p>The legal work in <em>Muller</em> existed. It was simply in a
+different document, because Oregon’s attorney general filed a
+conventional brief with the precedents in it. And some of the medical
+evidence Goldmark gathered was later challenged and refuted.</p>
+<p>The bigger problem is what the case was used for. <em>Muller</em>
+rested on the idea that women’s dependence justified protection men did
+not get, and that idea did real harm for two generations. Praise the
+method. Do not praise the holding.</p>
+<p>The unasked question. The reports Goldmark compiled were public.
+Nobody had put them in front of a court.</p>
+<h3>Kenneth
+and Mamie Clark, 1954 — A sentence the Court could write</h3>
+<p>The story most people know is that the Clarks’ doll studies decided
+<em>Brown v. Board of Education</em>. They did not.</p>
+<p>Kenneth and Mamie Clark were psychologists. Neither was a lawyer.
+Their work appears in footnote eleven of the opinion, in a list of
+social science sources offered to support a conclusion the Court had
+already reached on constitutional grounds. The footnote became famous
+because it was attacked, not because the case turned on it.</p>
+<p>What the Clarks did supply was a finding the Court was willing to
+state: that segregation produced a sense of inferiority in children, and
+that the feeling affected their learning. That had been observable for
+decades.</p>
+<p>The unasked question, with the causal claim kept small. The Clarks
+did not win <em>Brown</em>. They gave the Court a sentence it could
+write.</p>
+<h3>Ignaz
+Semmelweis, 1847 — A controlled trial nobody read as one</h3>
+<p>The Vienna General Hospital ran two maternity clinics. Doctors and
+medical students staffed the first. Midwives staffed the second.</p>
+<p>From 1840 through 1846 the death rate from childbed fever in the
+doctors’ clinic was 98.4 per thousand births. In the midwives’ clinic it
+was 36.2. The figures were in the hospital’s own ledgers and printed in
+its annual returns.</p>
+<p>Now the part that makes this unanswerable. Women were admitted to the
+two clinics on alternate days, with no medical selection of any kind. So
+the obvious objection is not available. The doctors’ clinic was not
+taking sicker patients. The only systematic difference between the two
+groups of women was who delivered them.</p>
+<p>The hospital was running a controlled experiment without meaning to,
+publishing the results every year, and reading them as nothing.</p>
+<p>Ignaz Semmelweis saw it in 1847, after a colleague named Jakob
+Kolletschka cut himself during an autopsy and died of what Semmelweis
+recognized as the same disease killing the mothers. The doctors came to
+deliveries straight from the dissecting room. The midwives did not.
+Semmelweis ordered chlorine handwashing that May. Deaths fell.</p>
+<p>The second correction matters more. Semmelweis was not an outsider.
+He was a credentialed physician, an assistant in the very clinic whose
+figures he read. If a theory of blindness requires an outsider to break
+it, that theory deletes the best case medicine has. The blindness here
+was not caused by a shortage of credentials. It was caused by a settled
+sense of what those mortality figures were about.</p>
+<p>The unasked question.</p>
+<h3>Joseph
+Goldberger, 1914 — The observation that needed no instrument</h3>
+<p>Pellagra killed thousands of Americans a year in the early twentieth
+century, most of them poor and most of them Southern. The medical
+consensus was that it was infectious. A commission had said so. An
+insect carrier was proposed.</p>
+<p>Joseph Goldberger of the Public Health Service made an observation
+that required no instrument at all. In the asylums and orphanages where
+inmates fell ill by the hundreds, the staff never did. An infection does
+not respect a payroll. So it was not an infection. It was diet.</p>
+<p>He published the reasoning in 1914. Every person who worked in those
+institutions could have made the same observation, and the institutions
+kept the records.</p>
+<p>The resistance is the useful part, because its stated ground was not
+medical. Southern physicians, newspapers and officials rejected a
+finding that blamed regional poverty. The objection was not to the
+evidence. It was to what the answer implied about them.</p>
+<p>The unasked question. The evidence was in the buildings where the
+disease was.</p>
+<h3>C.
+Henry Kempe, 1962 — Fifteen years of X-rays, then fifty state laws in
+five</h3>
+<p>In 1946 a radiologist named John Caffey described a pattern in
+infants: multiple broken bones, healing at visibly different times,
+together with bleeding around the brain. Bones do not break in that
+pattern by accident.</p>
+<p>The films kept coming. They sat in hospital record rooms across the
+country for sixteen years.</p>
+<p>In 1962 C. Henry Kempe and four colleagues published a paper in the
+<em>Journal of the American Medical Association</em> called “The
+Battered-Child Syndrome,” and named what the films showed.</p>
+<p>Then something happened that has no parallel elsewhere in this
+chapter. The first state laws requiring doctors to report suspected
+abuse passed in 1963. By 1967 all fifty states had one.</p>
+<p>The unasked question, with a sixteen-year gap and a five-year
+legislative answer. It is the one case here where a blindness was
+corrected and the law rebuilt inside a decade.</p>
+<h3>Yuri
+Knorozov, 1952 — The key had been in print for eighty-eight years</h3>
+<p>This is the purest case in the chapter, and it is not the case
+usually told.</p>
+<p>In the sixteenth century a Spanish friar named Diego de Landa wrote
+down what he took to be the Maya alphabet. His manuscript was published
+in Paris in 1864. Photographic copies of the surviving Maya books were
+in print by the end of that century. Everything needed was public.</p>
+<p>Scholars used it. They failed. De Landa’s list is inconsistent, some
+of its signs never appear in real inscriptions, and — above all —
+everyone read it as an alphabet.</p>
+<p>In 1952 Yuri Knorozov, working in Leningrad, read it as a syllabary
+instead. When de Landa asked his Maya informant for the letter B, the
+informant gave him the syllable <em>be</em>. Knorozov added a rule about
+how syllables pair, and the writing began to open.</p>
+<p>Eric Thompson, who dominated Maya studies, held that the script
+carried ideas rather than sounds, and he resisted for decades. The fight
+was personal as well as scholarly, and Knorozov was disparaged for
+working in the Soviet Union. Acceptance came through the 1960s and
+1970s. Michael Coe later wrote that everyone working on Maya had become,
+in a sense, a follower of Knorozov.</p>
+<p>Now the correction, and it makes the case stronger rather than
+weaker. It is not true that nobody asked. Many asked. What Knorozov
+brought was not evidence and not an instrument. It was a different idea
+about what kind of writing it was.</p>
+<p>That is exactly the shape of the argument in these volumes. The
+Patent Clause has been read continuously since 1787. Reading a text
+wrongly is not the same as never reading it. That is why
+<em>forgetting</em> is the right word for what happened to the Clause’s
+second half.</p>
+<p>The unasked question, and the strongest example of it here.</p>
+<h3>Robin
+Warren and Barry Marshall, 1979 — Counted, then explained away</h3>
+<p>In 1893 an Italian scientist named Giulio Bizzozero described spiral
+organisms living in the glands of the stomach. He was looking at
+dogs.</p>
+<p>The human record came later and it is worse. In 1938 a researcher
+named Doenges examined 242 human stomachs after death and found the same
+spiral organisms in forty-three percent of them. He connected them to no
+disease. In 1940 Freedberg and Baron found them in living patients; the
+result was never repeated, and no one published a failure to repeat it
+either.</p>
+<p>Then in 1954 Palmer studied stomach tissue from a thousand people and
+concluded the organisms were contamination carried in from the mouth.
+Medicine already believed the stomach was sterile, because stomach acid
+kills bacteria. Palmer’s study told the field what it already believed,
+on a sample too large to argue with. The question closed for thirty
+years.</p>
+<p>Robin Warren, a pathologist in Perth, took the organisms seriously
+again in 1979. Barry Marshall joined him in 1981.</p>
+<p>This case must be labeled honestly, and the honest label is mixed.
+What broke the resistance was not the argument. It was a run of new
+capability. The bacterium was finally grown in 1982, after culture
+plates were left in the incubator over a long weekend instead of the
+usual two days. Marshall drank a dose of it in 1984 and made himself
+ill, which satisfied the classical test for proving a microbe causes a
+disease. Clinical trials followed. The Nobel Prize came in 2005.</p>
+<p>So the slides were an unasked question for ninety years, and the
+answer came from the better tool. Both halves are true and the chapter
+needs both.</p>
+<p>The sharper point is this. The organisms were not merely present and
+unremarked. They had been counted, in a published series, in nearly half
+a large sample — and then explained away.</p>
+<h3>J Harlen Bretz,
+1923 — A landscape in plain sight</h3>
+<p>Eastern Washington holds a landscape that looks wrong: dry waterfalls
+hundreds of feet high, gravel bars the size of hills, a basalt plain
+scoured bare. J Harlen Bretz read it as the work of a single
+catastrophic flood and published that in 1923.</p>
+<p>Geology at the time treated catastrophe as disreputable. The
+discipline had been built on the principle that landscapes form slowly,
+by processes still running today, and a flood argument sounded like a
+return to Noah. In January 1927 the Geological Society of Washington
+arranged a meeting where senior geologists — several of whom had never
+visited the ground — took his argument apart in turn.</p>
+<p>The landscape had been there the whole time. It was mapped.</p>
+<p>What eventually settled it was the water. Bretz could not say where a
+flood that size would come from. Joseph Pardee could: he showed in 1942
+that a glacial lake in Montana had drained catastrophically, and the
+ripple marks proved it. General acceptance came in the 1960s and 1970s.
+Bretz received his profession’s highest award in 1979, at
+ninety-six.</p>
+<p>The unasked question about the landscape, with a missing fact that
+Bretz himself never supplied. Roughly fifty years.</p>
+<h3>Fritz
+Zwicky, 1933 — Arithmetic anyone could have done</h3>
+<p>Fritz Zwicky measured how fast galaxies were moving inside the Coma
+cluster and compared that with how much matter he could see. The
+galaxies were moving far too fast. At those speeds the cluster should
+have flown apart long ago. Something invisible was holding it together,
+and there was a great deal of it. He named the missing material
+<em>dunkle Materie</em> — dark matter.</p>
+<p>The calculation used published measurements and standard physics. Any
+competent astronomer could have run it.</p>
+<p>It was largely neglected for about forty years. Not entirely ignored
+— Sinclair Smith found a similar discrepancy in another cluster in 1936
+— but no consensus formed. Zwicky was abrasive, which did not help, and
+one number he relied on was later revised.</p>
+<p>Acceptance came when Vera Rubin and Kent Ford measured how fast stars
+orbit inside individual galaxies, starting with Andromeda in 1970, and
+when radio astronomers reached further out than optical telescopes
+could.</p>
+<p>Mixed. The 1933 result was an unasked question. The 1970s resolution
+took better tools.</p>
+<h3>Ruth
+Gilbert and the sleeping-position reviewers, 2005 — Forty-five years of
+confident wrong advice</h3>
+<p>For most of the twentieth century, parents in the English-speaking
+world were told to put babies to sleep on their fronts. It was in the
+childcare books from 1943 onward, and it was in the most trusted of
+them. The reasoning was that a baby lying face-up might choke on
+vomit.</p>
+<p>The reasoning was never tested. A 2005 systematic review in the
+<em>International Journal of Epidemiology</em> went back through the
+studies and found the advice rested on extrapolation from untested
+theory.</p>
+<p>Then the reviewers did the arithmetic nobody had done at the time.
+They pooled the studies as they appeared, year by year, and asked when
+the answer would have become visible.</p>
+<p><strong>By 1970</strong> the pooled odds ratio for front sleeping
+against back sleeping was 2.93, with a confidence interval of 1.15 to
+7.47. Statistically significant. Nearly three times the risk. <strong>By
+1986</strong>, five studies pooled to an odds ratio of 3.00, interval
+1.69 to 5.31.</p>
+<p>The advice to sleep infants on their fronts continued to appear in
+childcare books until 1988. National campaigns to reverse it came in the
+early 1990s.</p>
+<p>The reviewers’ estimate of the cost: a systematic review done in 1970
+might have prevented <strong>more than ten thousand infant deaths in the
+United Kingdom alone.</strong></p>
+<p>And there is a sharper point in their reply to critics. Most of the
+loss came not from the delay in reversing the advice but from issuing it
+in the first place — because when British clinicians began recommending
+front sleeping, the two studies that addressed the question showed no
+benefit at all.</p>
+<p><strong>The unasked question, and possibly the cleanest one in this
+book.</strong> No instrument was ever missing. No new data had to be
+collected. The studies were published, in ordinary journals, on library
+shelves. The method that eventually found the answer was to add up what
+was already there. Nobody profited from the error, no institution
+defended it once it was shown, and no one has argued since that the
+reversal was wrong.</p>
+<p>What was missing for eighteen years was the decision to look.</p>
+<p>A reader who has followed this case will think of childhood
+vaccination, and it would be evasive not to say why this chapter does
+not go there.</p>
+<p>The reason is not that the subject is off limits. It is that the
+subject does not divide cleanly on this chapter’s test.</p>
+<p>Some vaccine questions have been answered about as well as
+observational medicine answers anything. Whether the measles vaccine
+causes autism was studied directly, comparing vaccinated children
+against unvaccinated children, twice in the same national registry,
+across more than a million children in Denmark. That is a stronger
+evidence base than the sleeping-position reviewers had in 1970.</p>
+<p>Other questions have not been asked at that standard. The schedule as
+a whole has never been trialed as a schedule. Aluminum adjuvants went
+ninety years without a large study of cumulative exposure, because the
+comparison arms in the trials contained the same adjuvant and a variable
+held constant in both arms cannot be measured. Whether adverse event
+rates vary between manufacturing lots cannot be determined from public
+data, because the distribution figures needed to turn counts into rates
+are not published.</p>
+<p>That is a mixed record, and a chapter about unasked questions cannot
+honestly treat it as one subject. Sleeping position is here because
+nothing about it is contested — no one profited from the error, no
+institution defended it once it was shown, and no one argues now that
+the reversal was wrong. That is what makes it useful.</p>
+<p>The vaccine questions that remain open are real, and they are not
+this book’s to settle.</p>
+<h3>Sam
+Erman and Peter Irons, 2018 and 1999 — The nearest books to this
+one</h3>
+<p>No book, and nothing an open search turned up, gathers these
+constitutional cases into a single account of how legal doctrine goes
+blind and who notices.</p>
+<p>Three qualifications, because the claim is worth less without
+them.</p>
+<p>Sam Erman, in <em>Almost Citizens</em> (Cambridge University Press,
+2018), argues that people without legal training make a difference at
+law. He advances it about Puerto Rico and the constitutional absorption
+of empire rather than about how a field goes blind, but the sentence is
+close to this chapter’s, and it is in print. Peter Irons — who appears
+above as the lawyer who used Herzig-Yoshinaga’s finding — also wrote
+<em>A People’s History of the Supreme Court</em> and <em>The Courage of
+Their Convictions</em>, which tell the people-behind-the-cases story for
+general readers. And Lani Guinier and Gerald Torres have argued that
+ordinary people, working with legal professionals, change what the
+Constitution means.</p>
+<p>The limitation that matters most: no subscription law-review database
+was searched for this chapter. The claim is that nothing surfaced. It is
+not that nothing exists.</p>
+<h2>Movement
+Two: Why the Person Who Notices Rarely Wins the Case</h2>
+<p>Every case above has the same structure. Somebody outside the field
+supplied the material. Somebody inside the field carried it to a
+decision. The two jobs never sat in the same person.</p>
+<p>That is not an accident of which examples I chose. Search for the
+pure form — an outsider whose own research produced a Supreme Court
+holding in a case that person brought — and you find nothing. The
+category appears to be empty. What follows is an account of why, built
+on the emptiness rather than around it.</p>
+<h3>Clarence
+Gideon, 1963 — The archetype that does not fit</h3>
+<p>Clarence Earl Gideon wrote his own petition to the Supreme Court in
+pencil and learned his law in a prison library. He is the story everyone
+reaches for, and he does not fit.</p>
+<p>The Court appointed Abe Fortas to argue his case, and the winning
+argument was Fortas’s. The Court had also been looking for some years
+for a case in which to overrule <em>Betts v. Brady</em>. Gideon supplied
+the case. He did not supply the theory</p>
+<h3>Susette Kelo, 2005
+— An injury, not a discovery</h3>
+<p>Susette Kelo was a nurse whose house was condemned so that a
+development could be built. She lost in the Supreme Court.</p>
+<p>She found nothing and discovered nothing. What makes her case
+interesting is what happened after. More than forty states tightened
+their eminent-domain laws in response to the decision. The development
+was never built. Pfizer, the company the project was meant to serve,
+left New London in 2009.</p>
+<p>A loss can produce a reform. Keep that in mind.</p>
+<h3>Brewster Kahle,
+2007 — The closest anyone has come</h3>
+<p>Brewster Kahle is an engineer and an archivist. He built the Internet
+Archive. He is not a lawyer, and he made a structural observation of
+exactly the kind these volumes make.</p>
+<p>When Congress removed the requirement that copyright owners renew
+their copyrights, it turned an opt-in system into an opt-out one. On
+paper, no individual term changed. In practice, works stopped entering
+the public domain by default, because nobody now had to do anything to
+keep them out of it.</p>
+<p>That is an observation about how a system behaves, not about what a
+statute says. He lost.</p>
+<p>The Ninth Circuit told him he was making the argument the Supreme
+Court had already rejected in <em>Eldred</em>, wearing different
+clothes.</p>
+<p>Two things in that opinion matter here, and they cut opposite
+ways.</p>
+<p>The court admitted an opening. <em>Eldred</em>, it said, had not
+directly decided whether the words “limited Times” put a real ceiling on
+how long a copyright can last. The Supreme Court had expressly left that
+question open.</p>
+<p>Then the Ninth Circuit answered it, and answered it badly for anyone
+following. It held that the ceiling is found by weighing the
+encouragement longer terms give authors against the benefit shorter
+terms give the public — and that this weighing belongs to Congress,
+subject only to a test courts almost never fail anyone. One sentence
+keeps the door from shutting: future extensions may or may not survive
+review, but the current term is constitutional.</p>
+<p>There is one more fact, and it turns a loss into something worse. The
+Solicitor General of the United States then used <em>Kahle</em> against
+the next challenger, citing it in the government’s briefs in later
+copyright litigation. Kahle’s defeat became a tool in the government’s
+hand.</p>
+<p>The distinction these volumes rest on is that <em>Kahle</em> was
+about extending a term. The argument here alleges no extension of
+anything. Whether that distinction holds is for a court to say. It is
+stated here as this argument’s own, not as something <em>Kahle</em>
+decided.</p>
+<p>The reason the two jobs never sit in one person is not that outsiders
+lack ideas. It is arithmetic and procedure.</p>
+<p>In one recent set of 6,273 petitions to the Supreme Court, 6.3
+percent were granted or sent back for reconsideration. Of the 3,785
+filed by people too poor to pay the fees, 98.78 percent were denied —
+against 85.97 percent of the 2,488 paid petitions. A person representing
+himself may represent only himself. When the Court wants a case it
+appoints a lawyer, which separates the person who found the thing from
+the person who argues it, by design. And a brief that does not look like
+a brief is not read as one, however sound the insight underneath.</p>
+<h3>Pierre
+Azoulay, 2019 — What happens when the gatekeeper dies</h3>
+<p>Azoulay and two colleagues found 452 star scientists in the life
+sciences who died unexpectedly, and measured what happened to their
+fields afterward.</p>
+<p>Publication by scientists who had never worked with the deceased rose
+8.6 percent on average. Those papers were more likely than average to be
+heavily cited, and more likely to come from people who had not
+previously worked in that field at all. The barriers to entry were
+intellectual, social, and financial. Entry was most suppressed where the
+dead scientist’s close collaborators sat in positions controlling who
+got published and funded.</p>
+<p>That is the mechanism of this chapter, measured. Not that outsiders
+are right. That gatekeeping is real, that it keeps outsiders out, and
+that it relaxes when the gatekeeper dies.</p>
+<p>The docket. No reported federal decision has reached the merits of a
+claim that federal regulation, without extending any patent term,
+preserves practical exclusivity in an invention whose patent has
+expired. No reported decision shows such a claim being filed and thrown
+out on standing, on timing, or on any other ground.</p>
+<p>The statutory neighbors point the same way, and I checked them one at
+a time rather than trusting a summary. The patent-term extension cases
+turn on what the statute means by “product.” The patent-term adjustment
+cases turn on arithmetic. The orphan-drug exclusivity cases turn on the
+phrase “same disease or condition.” The biologics cases turn on notice
+requirements.</p>
+<p>In none of them was the constitutional question reached. In none of
+them was it raised.</p>
+<p>Two limits on that finding, both of which a hostile reader would find
+anyway. It covers reported federal opinions; unpublished orders, settled
+cases, and state matters lie outside it. And it is a statement about
+decisions, not about complaints, because complaints are not collected in
+a database anyone can search. The claim is that no reported decision
+reflects the theory. It is not that nobody ever filed it.</p>
+<p>Why has nobody argued this? A reader who has come this far should be
+suspicious. Generic drug makers fight regulatory exclusivity constantly,
+with enormous sums at stake and excellent lawyers. If exclusivity after
+a patent expires raised a constitutional problem, why has that industry
+never said so?</p>
+<p>Three answers, and they are the honest ones.</p>
+<p>Congress gave generic manufacturers a statutory path to market. A
+company with a cheaper remedy does not reach for the Constitution. The
+whole design of that statute is a bargain in which the industry accepted
+delay in exchange for a route, and firms litigate the route rather than
+the bargain.</p>
+<p>Durable goods have no such path. There is no abbreviated application
+for a patent-expired engine. The blockage is total rather than
+temporary, which is exactly why it raises a question the drug cases
+never had to reach.</p>
+<p>And a would-be remanufacturer stands in a worse procedural position
+than a generic filer. A drug company with an application pending has a
+concrete injury on a known timetable. Someone who would build a
+patent-expired vehicle if the rules allowed it has to establish that the
+injury is real before anything has been built.</p>
+<p>That is a reason the question has gone unasked. It is not a reason
+the answer is no.</p>
+<p>What this means for these volumes. This is why the book is written as
+a brief for a plaintiff rather than as a complaint. The author found the
+argument. The author cannot carry it. Every case in this movement says
+that the person who sees the thing and the person who wins the case are
+two different people. The honest response is to write for the second
+person, not to pretend to be him.</p>
+<p>Adoption is the verification. That is mechanics, not modesty.</p>
+<h2>Movement Three: When the
+Machine Asked</h2>
+<p>Volume One’s preface names three people who used machine learning on
+a field they had no standing in. It gives them a paragraph each, which
+is all a preface can afford. They deserve more, because between them
+they show exactly what the arrangement behind this book looks like when
+it can be checked against something physical — and because the preface
+files all three under the same heading, which is not right.</p>
+<p>This movement takes them first, then turns to something else.</p>
+<h3>Casey
+Handmer, 2023 — Ink in a scan a thousand people had already opened</h3>
+<p>In AD 79 Vesuvius buried the town of Herculaneum, and with it a villa
+library of roughly 1,800 papyrus scrolls. The eruption cooked them to
+charcoal. They survived because they were carbonized, and they became
+unreadable for the same reason: the ink is carbon, the papyrus is
+carbon, and unrolling one destroys it. For two and a half centuries they
+sat in Naples as illegible black logs.</p>
+<p>In 2019 Brent Seales at the University of Kentucky put two of them
+through a particle accelerator and produced X-ray scans at resolutions
+down to a few micrometres. Each scroll ran to about five terabytes of
+data holding perhaps ten thousand words. In 2023 Nat Friedman and Daniel
+Gross turned the problem into an open competition, released the scans
+publicly, and put up a grand prize of seven hundred thousand
+dollars.</p>
+<p>So the data was on the internet. Anyone could download it. Hundreds
+of people did.</p>
+<p>Casey Handmer downloaded it too. He is a physicist, formerly at
+NASA’s Jet Propulsion Laboratory, and he had no training in papyrology,
+no classical Greek, and no connection to the field. He also did not
+build anything. He opened the flattened scan segments and looked at
+them, for hours, the way you would look at anything you did not
+understand.</p>
+<p>And he noticed a texture. A faint pattern in the papyrus surface that
+resembled cracked mud, appearing in shapes that looked like Greek
+letters. He called it crackle, wrote it up on his own blog in August
+2023, and published it.</p>
+<p>The carbon ink was invisible because it has almost the same X-ray
+density as the carbon papyrus. What Handmer saw was not the ink. It was
+the disturbance the ink had left in the surface it dried on — the mark
+of a thing rather than the thing.</p>
+<p>It was the first substantial evidence of ink anyone had found inside
+an unopened scroll. The competition awarded him ten thousand
+dollars.</p>
+<p><strong>The unasked question, in its purest modern form.</strong> No
+instrument was missing. The scans were public, high resolution, and in
+the hands of hundreds of contestants and the professional papyrological
+community alike. Handmer used no model, no algorithm, and no equipment.
+He looked at a picture everyone had, for longer than anyone else had,
+without knowing what he was supposed to see — which is precisely why he
+saw it.</p>
+<p>Handmer himself calls it his modest contribution. It was the hinge on
+which everything after it turned.</p>
+<h3>Luke
+Farritor, 2023 — What the machine did with what the man noticed</h3>
+<p>Luke Farritor was twenty-one, a computer science undergraduate at the
+University of Nebraska–Lincoln. He read Handmer’s blog post.</p>
+<p>Then he did the thing Handmer could not. He took the crackle pattern
+as training data, built a machine-learning model to find more of it, fed
+the letters it found back in as further training, and iterated. The
+model began returning ink strokes. Then characters. Then, in a patch of
+scroll about four square centimetres across, more than ten of them in
+sequence.</p>
+<p>The word was πορφύρας — <em>porphyras</em> — Greek for purple, or
+cloths of purple. It was the first word ever read from the inside of an
+unopened Herculaneum scroll. Farritor won forty thousand dollars in
+October 2023. A second contestant, Youssef Nader, reached the same word
+independently and took ten thousand.</p>
+<p>By the end of December, Farritor, Nader and Julian Schilliger had
+together recovered about two thousand characters, roughly five percent
+of the scroll, and shared the seven-hundred-thousand-dollar grand
+prize.</p>
+<p>And then papyrologists read the Greek. Scholars at Naples, at Pisa,
+and elsewhere confirmed the readings and worked out what the text
+was.</p>
+<p><strong>This one is the better tool</strong>, and the labels matter
+here more than anywhere else in the chapter, because the sequence is the
+point.</p>
+<p>Seales built the instrument. Handmer, who had no standing at all,
+noticed something in data everyone possessed. Farritor, who had no
+standing either, built a machine that could find more of what Handmer
+noticed. And the field’s own experts read the result and said whether it
+was Greek.</p>
+<p>Four steps. An institution supplied the capability. An outsider
+supplied the observation. A second outsider supplied the machine.
+Insiders supplied the judgment about whether any of it was true.</p>
+<p>That is the arrangement behind these two volumes, and it is worth
+saying plainly rather than leaving a reader to infer it. The author of
+this book could not have assembled its argument without machine
+assistance, and does not claim otherwise. What the Herculaneum sequence
+shows is that the assistance is not the whole of it, and never was.
+Somebody has to notice. Somebody else has to check. The middle step is
+the only one a machine performs.</p>
+<h3>Christopher
+Shallue, 2017 — A planet in an archive that had been combed</h3>
+<p>NASA’s Kepler telescope watched roughly 150,000 stars at once,
+looking for the minute dimming that occurs when a planet crosses in
+front of one. It produced an archive that was public, enormous, and
+worked over for years by professional astronomers who had extracted
+thousands of planets from it.</p>
+<p>Christopher Shallue was a software engineer at Google. He was not an
+astronomer. By his own account he went looking for the data in his spare
+time, having read that astronomy had more of it than people to sift
+it.</p>
+<p>The professionals had concentrated on strong signals, for a
+defensible reason: a weak dip in a star’s brightness is usually noise,
+and chasing weak signals wastes time on false positives. Shallue’s idea
+was that a neural network might be able to sort the weak ones — that the
+constraint had been human attention rather than the data.</p>
+<p>He trained a network on fifteen thousand Kepler signals that human
+scientists had already labelled as real planets or false alarms. On a
+held-out test set it classified them correctly ninety-six percent of the
+time. Then he and Andrew Vanderburg pointed it at 670 star systems
+already known to hold multiple planets, on the reasoning that a system
+with several planets was a likely place to find another.</p>
+<p>It found one. Kepler-90i — about thirty percent larger than Earth,
+orbiting its star every 14.4 days, with a surface temperature above
+eight hundred degrees Fahrenheit. Kepler-90 had been identified in 2013
+as the first seven-planet system Kepler found. The eighth planet’s
+signal was too weak for the methods that found the other seven. That
+made Kepler-90 the first system known to match our own for planet
+count.</p>
+<p>The same run turned up Kepler-80g as well.</p>
+<p>Andrew Vanderburg was a NASA Sagan Fellow at the University of Texas,
+and he was the astronomer. He worked the problem alongside Shallue,
+co-authored the paper, and supplied what Shallue could not: the domain
+judgment about where to look and which candidates survived scrutiny. His
+description of the method is the best sentence anyone produced about it
+— sifting rocks to find jewels, where a finer sieve catches more rocks
+but may catch more jewels too.</p>
+<p>The paper ran in <em>The Astronomical Journal</em> in February 2018.
+Kepler-90i sits in the NASA Exoplanet Archive alongside every other
+confirmed world.</p>
+<p><strong>A hybrid, and the halves are worth separating.</strong> The
+network was a new tool and Shallue built it. But the tool is not what
+had been missing. The data was public and had been examined. What had
+not happened was anyone asking whether the signals the professionals had
+reasonably skipped were worth a second look. The question was the
+contribution. The network was how he could afford to ask it.</p>
+<p>None of these three men could have done what an astronomer, a
+papyrologist or a pathologist does. Every one of them needed one to
+confirm the result. What each supplied was a question the field had not
+put to its own evidence, and a machine capable of putting it.</p>
+<p>In the results below, the person holding the instrument was an
+insider — fully credentialed, working on data his own field had been
+generating for decades. The machine found something in that data that
+the field did not know was there. Nobody asked it to look, because
+nobody knew there was anything to look for.</p>
+<p>That takes the operator’s credentials out of the argument entirely.
+These are not stories about clever outsiders. They are demonstrations
+that a field can stare at its own evidence for a century and not see
+what is in it.</p>
+<h3>Ryan
+Poplin, 2018 — Sex and heart disease in a photograph of the eye</h3>
+<p>Doctors have been photographing the back of the eye for about a
+hundred years. The picture shows the retina and its blood vessels, and
+it is used to look for eye disease.</p>
+<p>Poplin and his colleagues trained a system on retinal photographs
+from 284,335 patients and tested it on two separate groups. From the
+photograph alone, the system estimated a patient’s age to within about
+three and a quarter years. It read blood pressure to within about eleven
+points. It predicted whether the patient smoked, and whether the patient
+would have a major cardiac event.</p>
+<p>It also identified the patient’s sex, almost perfectly.</p>
+<p>No ophthalmologist can do that. No ophthalmologist suspected it could
+be done. The authors say plainly that these signals were not previously
+thought to be present in retinal images at all.</p>
+<p>The unasked question, without qualification. The instrument was new.
+The information was not.</p>
+<h3>Andrew Beck,
+2011 — The background was the signal</h3>
+<p>Volume One’s preface tells this story briefly. It earns a fuller
+telling here, because it is the case the whole book is built on.</p>
+<p>Researchers at Stanford built a system called C-Path and turned it on
+breast-cancer tissue slides, measuring 6,642 separate features of each
+image. Breast cancer had been graded for decades by reading the
+epithelium — the cancer cells themselves — under a scheme largely
+unchanged since the 1920s.</p>
+<p>C-Path found that features of the stroma, the ordinary connective
+tissue surrounding the tumour, predicted how long a patient would live
+more strongly than the features of the tumour did.</p>
+<p>The finding was built on one hospital cohort, held on a second and
+independent one, and published in peer review.</p>
+<p>Two corrections, because this case is usually told too well. It is
+partly a better-tool case: the measuring system did not exist before and
+had to be built using human-labelled examples. And the ninety years
+sometimes attached to this story belongs to the grading scheme for
+cancer cells. It does not describe how long the stroma went unread.</p>
+<p>The corrected version is still the sharpest illustration in the book.
+Nothing hid the stroma. It sat on every slide, in plain sight, for the
+better part of a century — and specialists did not count it, not because
+they could not see it, but because they were confident they already knew
+which part of the slide mattered.</p>
+<p><strong>The unasked question.</strong> That sentence is the thesis of
+these two volumes, and a pathology slide is where it can be proved.</p>
+<h3>The
+Mayo Clinic, 2019 and 2021 — A century of heart tracings</h3>
+<p>The electrocardiogram has been recorded since the early 1900s. It is
+one of the most studied signals in medicine.</p>
+<p>Mayo Clinic researchers trained a system to detect a weak-pumping
+heart from an ordinary twelve-lead tracing. Cardiologists do not read
+pumping strength off an electrocardiogram. It is measured with
+ultrasound.</p>
+<p>Then the finding was tested the way findings ought to be. In a trial
+across 120 primary care teams at 45 clinics and hospitals, covering
+22,641 adults with no history of heart failure, doctors in one group saw
+the system’s output and doctors in the other did not. New diagnoses
+within ninety days rose from 1.6 percent to 2.1 percent.</p>
+<p>That is a modest effect and it is stated here as a modest effect. It
+is also a randomized trial, which almost nothing else in this movement
+has.</p>
+<p>The unasked question. A century of recordings, a signal nobody
+thought carried this information, and no new instrument beyond the one
+already in every clinic.</p>
+<h3>Nicolas
+Coudray, 2018 — Genes visible in a stained slide</h3>
+<p>Coudray and his colleagues trained a system on lung cancer slides
+stained with the ordinary dyes pathologists have used since the
+nineteenth century. It sorted the tumors by type very accurately.</p>
+<p>Then it did something nobody expected. From the same stained image,
+it predicted which of several genes were mutated in the tumor —
+information that normally requires sending tissue out for genetic
+sequencing.</p>
+<p>Keep the calibration honest. Those predictions were moderately
+accurate, well below the accuracy of the sorting task. But the direction
+is the point. A tumor’s genetics leave a visible mark in the shape of
+the tissue, and a hundred and fifty years of pathologists looking at
+stained slides did not know it.</p>
+<p>The unasked question.</p>
+<h3>AlphaDev
+and AlphaTensor, 2022 and 2023 — A different trick, often confused with
+this one</h3>
+<p>There is a second category of machine result, and it gets mixed up
+with the first constantly. It should not be, and the distinction is why
+this section exists.</p>
+<p>AlphaDev searched for faster ways to sort short lists of numbers,
+working at the level of individual machine instructions. The routines it
+found were adopted into a standard library used by an enormous amount of
+software. Human engineers had been tuning those routines for more than a
+decade. A later paper by another researcher found shorter programs the
+system had claimed were impossible, and a plain implementation that ran
+faster still.</p>
+<p>AlphaTensor found a way to multiply certain small tables of numbers
+using fewer multiplications than the best known method from 1969. That
+result holds in a restricted kind of arithmetic, not ordinary
+arithmetic, and the qualifier is not optional. Within about a week of
+publication, two mathematicians found a different method of the same
+length — having previously not looked, because they believed it could
+not be done. A leading expert on the problem called the result
+overhyped.</p>
+<p>Machine-generated results in game play and in pure mathematics belong
+in the same category.</p>
+<p>All of this is impressive. None of it supports the claim this chapter
+is making. These are stories about capability: a machine built something
+that did not exist before. That is the better tool wearing a circuit
+board, and it indicts nobody.</p>
+<p>Only the first group is a story about attention. And only a story
+about attention says anything about how a field can go blind while
+holding every piece of evidence it needs.</p>
+<p>Filing the second group under the first would be padding. It would
+also be the exact error this chapter has spent twenty pages
+describing.</p>
+<h2>The turn</h2>
+<p>In every case in the first group, the machine was not told where to
+look. And in every case, a human being decided what counted as
+proved.</p>
+<p>Poplin’s team ran further follow-up studies to find out which part of
+the image the system was using. Mayo did not stop at an accurate model;
+they ran a randomized trial across forty-five sites. The mathematical
+result mentioned above arrived with a companion paper from nine
+mathematicians who had checked the proof by hand.</p>
+<p>That structure is the structure of these volumes. Tools helped
+assemble the argument. Every case in it was read. Every figure was
+checked against a primary source or marked as unchecked. And a court,
+not a machine and not the author, will decide whether the argument
+stands.</p>
+<h2>Close</h2>
+<p>Fields build up blind spots at their own edges. People whose training
+points at those edges are more likely than average to see what is
+sitting there. That is the whole claim. It is narrower than the story
+usually told about outsiders, and it is the only version the evidence
+supports.</p>
+<p>Constitutional law is a field with that kind of edge. It has the
+documents. It has had them the whole time. What it has not had, on this
+question, is the question.</p>
+<p>The chapter on who can bring this case names the people with standing
+to file it. This chapter has explained why the author is not among them,
+and why that is the ordinary condition rather than a defect in the
+argument.</p>
+<p>Goldmark did not argue <em>Muller</em>. The Clarks did not argue
+<em>Brown</em>. Herzig-Yoshinaga did not argue <em>Korematsu</em>.
+Markopolos did not prosecute Madoff. Each of them found something.
+Somebody else carried it.</p>
+<p>The finding is here. The blindfold is described. Somebody with
+standing has to take it off.</p>
+
+      <div class="endmatter">
+        <div class="endnotes-box">
+          <p style="margin:0 0 .6rem;"><strong>Sources for this chapter</strong></p>
+          <p style="margin:0 0 .5rem;">Every authority named above is documented in the
+          book&rsquo;s back-matter apparatus, published in full:</p>
+          <p style="margin:0 0 .4rem;"><a href="https://marti124.github.io/Patent_EndNotes/">Endnotes, glossary &amp; key terms</a>
+          &mdash; every citation with a live source link.</p>
+          <p style="margin:0;"><a href="https://marti124.github.io/Patent_EndNotes/#appendix-a">Appendix A &mdash; the SCOTUS Case Master
+          Table</a>: every Supreme Court case cited across the two volumes, sorted by decision
+          year, each described for what it actually holds. Inclusion is not endorsement &mdash;
+          the cases that cut against the argument are in there too, and say so.</p>
+        </div>
+
+        <div class="invite-link">
+          <p style="margin:0 0 .6rem;">Ready to test the argument yourself? The chapter
+          <em>&ldquo;Reason the Constitutional Argument Yourself: The Open-Book
+          Examination&rdquo;</em> hands you the primary materials and the seven prompts:
+          <a href="Forgotten_Half_Chapter_34.html">Read the full examination chapter</a>.</p>
+          <p style="margin:0;">For an overview of what the two volumes contain:
+          <a href="Forgotten_Half_Two_Volume_Brief.html">the Two-Volume Brief</a>.</p>
+        </div>
+
+        <div class="page-footer">
+          <p><em>The Forgotten Half of the Patent Clause, Volume Two &mdash; The Case Continued</em>
+          &nbsp;&middot;&nbsp; by Roleigh Martin &nbsp;&middot;&nbsp; Copyright &copy; 2026.
+          All rights reserved.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

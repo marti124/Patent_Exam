@@ -129,12 +129,31 @@
   .technote p:last-child{margin-bottom:0;}
   .technote a{font-weight:600;border-bottom:1px solid var(--link);}
   .technote .mark{color:#8c8c8c;font-weight:700;}
+
+  /* chapter identifier bar — first thing the reader sees (added 2026-07-31) */
+  .chap-id{background:var(--navy);color:var(--paper);text-align:center;
+    font-family:"Cinzel",serif;padding:14px 20px;line-height:1.4;
+    border-bottom:3px solid var(--gold);}
+  .chap-id .vol{display:block;font-size:.76rem;letter-spacing:.24em;color:#d8c295;
+    text-transform:uppercase;margin:0 0 .35rem;}
+  .chap-id .ttl{display:block;font-size:1.16rem;letter-spacing:.02em;}
+  /* endnotes pointer, placed before the chapter begins */
+  .notes-top{background:#fbf6e9;border:1px solid var(--rule);
+    border-left:4px solid var(--navy);border-radius:8px;
+    padding:15px 22px;margin:1.4rem 0;font-size:.97rem;}
+  .notes-top p{margin:0 0 .55rem;text-align:left;}
+  .notes-top p:last-child{margin-bottom:0;}
+  .notes-top a{font-weight:600;border-bottom:1px solid var(--link);}
+  .notes-top .label{font-family:"Cinzel",serif;color:var(--navy);font-size:1.02rem;
+    display:block;margin:0 0 .5rem;}
+  @media (max-width:600px){ .chap-id .ttl{font-size:1rem;} }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="sheet">
 <img class="banner" src="banner.jpg" alt="The Forgotten Half of the Patent Clause">
+    <div class="chap-id"><span class="vol">Volume One &middot; Chapter 1</span><span class="ttl">Four Problems, One Remedy</span></div>
     <div class="body">
 
       <div class="masthead">
@@ -148,7 +167,7 @@
 
       <hr class="divider">
 
-      <p class="intro-lede">This is the opening chapter of Book&nbsp;One. It states the problem in
+      <p class="intro-lede">This is the opening chapter of Volume&nbsp;One. It states the problem in
       plain language: four things going wrong in American life right now, one cause beneath all
       four, and one remedy that reaches all four at once. No legal training is needed to read it.
       Everything that follows in the two volumes is the evidence for what this chapter claims.</p>
@@ -168,6 +187,20 @@
         <p>Some figures in this chapter rest on evidence developed in later chapters. Only this
         chapter and the examination chapter are published on the web. If a number here raises a
         question this chapter does not answer, the answer is in the book.</p>
+      </div>
+
+      <div class="notes-top">
+        <span class="label">Sources and endnotes for this chapter</span>
+        <p>Every authority named in this chapter is documented in the book&rsquo;s full
+        back-matter apparatus:
+        <a href="https://marti124.github.io/Patent_EndNotes/Forgotten_Half_Full_EndNotes.html">Endnotes,
+        Glossary &amp; Key&nbsp;Terms</a> &mdash; every citation with a live source link.</p>
+        <p>One caution so it is not a surprise. That page is <em>not</em> a per-chapter note
+        list. It is the complete apparatus for the entire two-volume work, alphabetical by
+        author, organization, or case name, and it runs to several hundred entries.</p>
+        <p>To find a particular source, open the page and use your browser&rsquo;s find
+        command &mdash; <strong>Ctrl-F</strong> on Windows, <strong>Command-F</strong> on a
+        Mac &mdash; then search for the author, case, or work by name.</p>
       </div>
 
       <div class="ask">
@@ -294,7 +327,7 @@
         </div>
 
         <div class="page-footer">
-          <p><em>The Forgotten Half of the Patent Clause &mdash; Book One</em>
+          <p><em>The Forgotten Half of the Patent Clause &mdash; Volume One</em>
           &nbsp;&middot;&nbsp; by Roleigh Martin &nbsp;&middot;&nbsp; Copyright &copy; 2026.
           All rights reserved.</p>
         </div>
