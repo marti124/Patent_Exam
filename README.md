@@ -1,6 +1,6 @@
 # The Open-Book Examination — Companion Files
 
-These files go with the chapter **"Reason the Constitutional Argument Yourself: The Open-Book Examination"** in the book *The Forgotten Half of the Patent Clause: How Federal Regulations Doubled the Cost of American Living and Rewrote the Constitution* by Roleigh Martin.
+These files go with the chapter **"Reason the Constitutional Argument Yourself: The Open-Book Examination"** in the book *The Second Monopoly: The Patent Expired. The Exclusion Didn't — and It Doubled the Cost of American Living* by Roleigh Martin (formerly titled *The Forgotten Half of the Patent Clause*).
 
 They are **free** for anyone reading that chapter.
 
@@ -30,4 +30,4 @@ Run each prompt in its own fresh chat, so each answer stands on its own. The ste
 
 ---
 
-*The Forgotten Half of the Patent Clause* by Roleigh Martin. Copyright © 2026. These companion files are provided free of charge to readers of the chapter named above.
+*The Second Monopoly* by Roleigh Martin. Copyright © 2026. These companion files are provided free of charge to readers of the chapter named above.
